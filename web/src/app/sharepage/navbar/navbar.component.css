@@ -1,0 +1,7 @@
+.navbar-light .navbar-nav .nav-link.active-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    margin: 0 36%;
+    margin-top: 2%;
+}

@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 100;
+    text-align: justify;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 1em;
+    color: whitesmoke;
+}
+
+section {
+    padding: 0.5em;
+}
+
+section article {
+    border: 1px solid blueviolet;
+    margin: 0.5em;
+}
+
+section article img {
+    width: 100%;
+}
+
+section article h2 {
+    color: blueviolet;
+    margin: 0.5em;
+}
+
+section article p {
+    color: grey;
+    margin: 0.5em;
+}
+
+footer {
+    background-color: blueviolet;
+    padding: 1.5em 0.5em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer p {
+    text-align: center;
+    margin: 0.5em 0;
+}

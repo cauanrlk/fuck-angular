@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Inicial</title>
+    <link rel="stylesheet" type="text/css" href="form.component.css" media="">
+
+
+</head>
+<body>
+    
+    
+    <div>
+        <h1>Formulário Inicial</h1>
+        <p>Complete com suas informações:</p>
+        <br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input placeholder="Insira Seu Nome" type="text" name="nome" id="nome" required>
+            </div>
+            </fieldset>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input placeholder="Insira Seu Sobrenome" type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input placeholder="Insira Seu Email" type="email" name="email" id="email" required>
+            </div>
+            <div class="campo">
+                <label for="estado"><strong>Estado</strong></label>
+                <input placeholder="Insira Seu Estado" type="text" name="estado" id="estado" required>
+            </div>
+            <div class="campo">
+                <label for="idade"><strong>Idade</strong></label>
+                <input placeholder="Insira Sua Idade" type="number" name="idade" id="idade" required>
+            </div>
+            <div class="campo">
+                <label><strong>Gênero</strong></label>
+                <select id="games1">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                </select>
+            </div>
+            <div class="campo">
+                <label><strong>Nível de Inglês</strong></label>
+                <select id="games2">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Avançado</option>
+                    <option>Intermediário</option>
+                    <option>Básico</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label><strong>Jogos conhecidos por você</strong></label>
+                <select id="games3">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Fortnite</option>
+                    <option>CS:GO</option>
+                    <option>Valorant</option>
+                    <option>Fifa</option>
+                    <option>GTA V</option>
+                    <option>Rocket League</option>
+                </select>
+            </div>
+            <fieldset class="grupo">
+                <div id="check">
+                    <label><strong>Selecione o nivel de conhecimento que tem sobre os jogos atuais:</strong></label><br><br>
+                    <input type="radio" id="nivel1" name="radio" value="excelente">
+                    <label id="radio1">Excelente</label>
+                    <input type="radio" id="nivel2" name="radio" value="bom">
+                    <label id="radio2">Bom</label>
+                    <input type="radio" id="nivel3" name="radio" value="medio">
+                    <label id="radio3">Médio</label>
+                    <input type="radio" id="nivel4" name="radio" value="pouco">
+                    <label id="radio4">Pouco</label>
+                    <input type="radio" id="nivel5" name="radio" value="nenhum">
+                    <label id="radio5">Nenhum</label>
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <br>
+                <label><strong>Conte um pouco da sua experiência de jogos:</strong></label>
+                <textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+            <a>Após concluido clique no botão "Next" no canto superior direito!!</a>
+
+
+    </form>
+
+
+    
+</body>
+</html>
+
